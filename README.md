@@ -1,11 +1,11 @@
 # IoT-Sentiment-Analysis-API
 Restful web API for sentiment analysis used in the mobile app for IoT course team project.
 
-## Deployment
-available on Heroku: 
+## URL
+Available on Heroku: https://whispering-peak-14834.herokuapp.com/
 
 ## Usage
-POST to the URL with json data (the "text" key is required, and its coresponding value is the text needed to be analyzed.
+POST to the above URL with json data (the "text" key is required, and its coresponding value is the text needed to be analyzed.
 ```
 {
   "text": "I am feeling happy."
