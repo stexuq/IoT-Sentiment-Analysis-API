@@ -10,7 +10,9 @@ var router = express.Router();
 
 // indicio specific
 var indico = require('indico.io');
-indico.apiKey =  '896c8a98922a6072f3221895a7a4a308';
+var apikey = require('./apikey');
+var key = apikey.apikey();
+indico.apiKey = key;
 
 var response = function(res) { console.log(res); }
 var logError = function(err) { console.log(err); }
