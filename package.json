@@ -1,0 +1,17 @@
+{
+  "name": "restful-sentiment-api",
+  "version": "1.0.0",
+  "description": "restful sentiment analysis api for mobile iot course team project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Qian (Stella)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "indico.io": "^0.10.5"
+  }
+}
