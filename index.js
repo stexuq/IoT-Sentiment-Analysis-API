@@ -73,6 +73,8 @@ app.use("/", router);
 
 //app.listen(5000);
 //console.log("starting express server on port 9100...");
-app.listen(app.get('port'), function() {
+app.listen(app.get('port'), "127.0.0.1", function() {
+    
   console.log('Node app is running on port', app.get('port'));
+
 });
