@@ -1,6 +1,8 @@
 # IoT-Sentiment-Analysis-API
 Restful web API for sentiment analysis used in the mobile app for IoT course team project.
 
+local storage: ~/Develop/Twitter-Sentiment-Analysis/RestfulSentimentAPI
+
 ## URL
 Available on Heroku: https://whispering-peak-14834.herokuapp.com/ (removed)
 
